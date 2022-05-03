@@ -29,6 +29,7 @@ h2{
     align-items: center;
     margin-top: 21%;
     text-align: center;
+    background-color: red;
 }
 
 .nav-btns{
@@ -50,3 +51,28 @@ h2{
 .nav-container{
     padding-top: 15px;
 }
+
+.App {
+    text-align: center;
+  }
+  
+  .App > div {
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: 100px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    background-color: aqua;
+    top: 0;
+  }
+  
+  li {
+    cursor: pointer;
+  }
+  
