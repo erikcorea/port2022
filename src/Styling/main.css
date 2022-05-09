@@ -27,9 +27,8 @@ h2{
     display: block;
     justify-content: center;
     align-items: center;
-    margin-top: 21%;
+    padding-top: 100px;
     text-align: center;
-    background-color: red;
 }
 
 .nav-btns{
@@ -56,13 +55,13 @@ h2{
     text-align: center;
   }
   
-  .App > div {
+.App > div {
     width: 100vw;
     min-height: 100vh;
     margin-top: 100px;
-  }
+}
 
-  .header {
+.header {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -70,9 +69,9 @@ h2{
     position: fixed;
     background-color: aqua;
     top: 0;
-  }
+}
   
-  li {
+li {
     cursor: pointer;
-  }
+}
   

@@ -15,7 +15,7 @@ export default function Navbar() {
           offset={-100}
           duration={500}
         >
-          Section 1
+          <button className='nav-btns'>Home</button>
         </Link>
       </li>
       <li>
@@ -27,7 +27,7 @@ export default function Navbar() {
           offset={-100}
           duration={500}
         >
-          Section 2
+          <button className='nav-btns'>About</button>
         </Link>
       </li>
       <li>
@@ -39,7 +39,7 @@ export default function Navbar() {
           offset={-100}
           duration={500}
         >
-          Section 3
+          <button className='nav-btns'>Projects</button>
         </Link>
       </li>
       <li>
@@ -51,10 +51,15 @@ export default function Navbar() {
           offset={-100}
           duration={500}
         >
-          Section 4
+          <button className='nav-btns'>Contact</button>
         </Link>
       </li>
     </ul>
   </nav>
   )
 }
+
+
+
+
+        
