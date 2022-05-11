@@ -27,12 +27,12 @@ h2{
     display: block;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 15%;
     text-align: center;
 }
 
 .nav-btns{
-    border: solid #555555 1px;
+    border: solid #FBF7F0 1px;
     color: #555555;
     text-decoration: none;
     background-color: #FBF7F0;
@@ -67,11 +67,80 @@ h2{
     width: 100%;
     padding: 20px 0;
     position: fixed;
-    background-color: aqua;
+    background-color: #FBF7F0;
     top: 0;
 }
   
 li {
     cursor: pointer;
+    list-style: none;
 }
   
+.about-para p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+    margin-left: 22%;
+    font-family: 'Barlow', sans-serif;
+    padding-top: 25px;
+    font-size: 1.6rem;
+}
+
+.about-skills{
+    padding-top: 25px;
+}
+
+
+#about-outer {
+	height: 84px;
+}
+
+.about-table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#about-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#about-list li {
+		display: inline;
+	}
+
+.skills-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skills-title{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.card {
+    margin-bottom: 5%;
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 5px 8px;
+}
+
+#skills{
+    text-decoration: none;
+    color: #404040;
+}
