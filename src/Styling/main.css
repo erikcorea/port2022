@@ -144,3 +144,70 @@ ul#about-list {
     text-decoration: none;
     color: #404040;
 }
+
+.project-cards-container{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-title{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+    color: #DD4A48;
+    font-size: 3rem;
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #DD4A48;
+    font-size: 1.3rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+
+.project-card {
+    margin-bottom: 5%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 8px #292B2E;
+    width: 15rem;
+    height: 17rem;
+}
+
+
+.project-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.github-icon-project{
+    padding-bottom: 50%;
+}
+
+#projects{
+    text-decoration: none;
+    color: #404040;
+}

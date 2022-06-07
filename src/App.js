@@ -1,6 +1,8 @@
 import Main from './Components/Main.js'
 import About from './Components/About.js';
 import Navbar from './Components/Navbar.js';
+import Projects from './Components/Projects.js';
+import Contact from './Components/Contact.js';
 import './Styling/main.css';
 
 
@@ -15,10 +17,10 @@ function App() {
         <About />
       </div>
       <div id="section3">
-        <h1>Section 3</h1>
+        <Projects />
       </div>
       <div id="section4">
-        <h1>Section 4</h1>
+        <Contact />
       </div>
     </div>
   );
