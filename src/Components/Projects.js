@@ -16,7 +16,6 @@ function Projects() {
                     <div className='project-links'>
                         <div className='link-container'>
                             <div className='github-icon-project'>
-                                <SocialIcon url={project.github} />
                             </div>
                         </div>
                     </div>
