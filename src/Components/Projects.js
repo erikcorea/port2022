@@ -14,10 +14,9 @@ function Projects() {
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.description}</p>
                     <div className='project-links'>
-                        <div className='link-container'>
-                            <div className='github-icon-project'>
-                            </div>
-                        </div>
+                    <div className='link-button-container'>
+                        <button className='link-button'><a className="link" href ="https://docs.google.com/document/d/1V_qwBwpUjXztFb_fDUlu3GlAA5JotlzC9aCKgcIGqzU/edit?usp=sharing">LIVE</a></button>
+                    </div>
                     </div>
                 </div>
             </div>

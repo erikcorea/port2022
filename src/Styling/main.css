@@ -234,6 +234,18 @@ ul#about-list {
     color: #DD4A48;
 }
 
+.link-button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: solid #DD4A48 1px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 2rem;
+    color: #DD4A48;
+}
+
+
+
 .button-container{
     width: 80%;
     margin-left: 10%;
@@ -244,6 +256,29 @@ ul#about-list {
     flex-wrap: wrap;
     font-family: 'Work Sans', sans-serif;
     font-size: 3rem;
+}
+
+.link-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #DD4A48;
+    font-size: 1.3rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.link-button:hover{
+    background-color: #DD4A48;
+}
+
+.link{
+    text-decoration: none;
+    color: #DD4A48;
+}
+
+.link:hover{
+    color: #FBF7F0;
 }
 
 .email{
